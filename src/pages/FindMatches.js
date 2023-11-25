@@ -198,10 +198,13 @@ function FindMatches() {
                     {character.occupation}, {character.location}
                   </p>
                   <div className="info-button">
-
-                    <a href="#" onClick={() => openModal(character)}>
-                      <FaInfoCircle />
-                    </a></div>
+  <a href="#" onClick={(event) => { 
+    event.preventDefault();
+    openModal(character);
+  }}>
+    <FaInfoCircle />
+  </a>
+</div>
                 </div>
               </div>
               <div className="card-buttons">
