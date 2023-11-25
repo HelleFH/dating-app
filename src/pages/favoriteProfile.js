@@ -70,13 +70,16 @@ function FavoriteProfile() {
               </div>
             </div>
 
-        
+            <div className="other-profile-buttons">
+
+<button onClick={goBack} className="otherProfile-button">
+  Back
+</button>
+
+</div>
        
       </div>
-      <button onClick={goBack} className="otherProfile-button">
-        Back
-      </button>
-    
+
       </div>
     );
   }

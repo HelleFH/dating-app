@@ -163,14 +163,17 @@ function Favorites() {
                 <div>
                   <p>{profile.profile_text.substring(0, 159)}...</p>
                 </div>
+                <div className="other-profile-buttons">
+                <button className="otherProfile-button" onClick={() => handleViewProfileClick(profile)}>
+
+<Link to={`/favoriteProfiles/${profile.id}`}>
+  View Profile
+</Link>
+</button>
+</div>
               </div>
 
-              <button className="otherProfile-button" onClick={() => handleViewProfileClick(profile)}>
-
-                <Link to={`/favoriteProfiles/${profile.id}`}>
-                  View Profile
-                </Link>
-              </button>
+         
 
             </div>
           ))}
