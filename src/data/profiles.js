@@ -72,7 +72,7 @@ const profiles = [
     "smoking_habits": "Non-smoker",
     "interests": ["Traveling", "Cooking", "Yoga", "Volunteering and charity work"],
     "children": "none",
-    "image": "/images/profile-photos/user-image(5).png",
+    "image": "./images/profile-photos/user-image(5).png",
     "profile_text": "I'm a helpful and active person who'd like to make a difference in the world. I love traveling and experiencing new cultures and enjoy helping others through volunteering and charity work. I'm looking for a person who has the same attitude and is ready to take the world by storm together with me."
   },
   {
@@ -91,7 +91,7 @@ const profiles = [
     "smoking_habits": "Non-smoker",
     "interests": ["Traveling", "Cooking", "Yoga", "Music"],
     "children": "1",
-    "image": "/images/profile-photos/user-image(19).png",
+    "image": "./images/profile-photos/user-image(19).png",
     "profile_text": "I'm a creative and outgoing person who likes to take long hikes in the mountains and cook healthy food at home. I'm looking for a man who can appreciate my positive attitude and fun personality, and who likes to stay active and healthy."
   },
   {
@@ -110,7 +110,7 @@ const profiles = [
     "smoking_habits": "Non-smoker",
     "interests": ["Traveling", "Cooking", "Yoga", "Music"],
     "children": "2",
-    "image": "/images/profile-photos/user-image(7).png",
+    "image": "./images/profile-photos/user-image(7).png",
     "profile_text": "I'm a creative and outgoing person who likes to take long hikes in the mountains and cook healthy food at home. I'm looking for a man who can appreciate my positive attitude and fun personality and who likes to stay active and healthy."
   },
   {
@@ -129,7 +129,7 @@ const profiles = [
     "smoking_habits": "Non-smoker",
     "interests": ["Yoga", "Traveling", "Cooking"],
     "children": "3 or more",
-    "image": "/images/profile-photos/user-image(8).png",
+    "image": "./images/profile-photos/user-image(8).png",
     "profile_text": "I'm a curious and open-minded person who likes to explore new places and cultures. I also enjoy cooking and preparing healthy meals, and like to stay in shape by practicing yoga. I'm looking for a man who can share my thirst for adventure and passion for health and well-being."
   },
   {
@@ -148,7 +148,7 @@ const profiles = [
     "smoking_habits": "Non-smoker",
     "interests": ["Painting", "Literature", "Yoga", "Arts and crafts", "Music", "Hiking and outdoor activities"],
     "children": "1",
-    "image": "/images/profile-photos/user-image(9).png",
+    "image": "./images/profile-photos/user-image(9).png",
     "profile_text": "I'm a creative and curious person who likes to learn new things and express myself through art and writing."
   },
   {
@@ -167,7 +167,7 @@ const profiles = [
     "smoking_habits": "Non-smoker",
     "interests": ["Yoga", "Cooking", "Hiking and outdoor activities"],
     "children": "none",
-    "image": "/images/profile-photos/user-image(10).png",
+    "image": "./images/profile-photos/user-image(10).png",
     "profile_text": "I'm a creative and outgoing person who likes to take long hikes in the mountains and cook healthy food at home. I'm looking for a man who can appreciate my positive attitude and fun personality and who likes to stay active and healthy."
   },
   {
@@ -186,7 +186,7 @@ const profiles = [
     "smoking_habits": "Smoker",
     "interests": ["Psychology", "Traveling", "Yoga", "Cooking", "Music", "Hiking and outdoor activities"],
     "children": "1",
-    "image": "/images/profile-photos/user-image(14).png",
+    "image": "./images/profile-photos/user-image(14).png",
     "profile_text": "I'm a psychologist who's passionate about understanding people and helping them lead better lives. I'm looking for a man who's intellectually curious and ready to explore the depths of the human mind with me."
   },
  
@@ -206,7 +206,7 @@ const profiles = [
     "smoking_habits": "Non-smoker",
     "interests": ["Architecture", "Traveling", "Yoga", "Music", "Hiking and outdoor activities"],
     "children": "2",
-    "image": "/images/profile-photos/user-image(12).png",
+    "image": "./images/profile-photos/user-image(12).png",
     "profile_text": "I'm an architect who's passionate about creating beautiful spaces and exploring the world. I'm looking for a woman who appreciates design and is ready to embark on adventures with me."
   },
   {
@@ -225,7 +225,7 @@ const profiles = [
     "smoking_habits": "Non-smoker",
     "interests": ["Photography", "Literature", "Traveling", "Cooking", "Yoga", "Arts and crafts"],
     "children": "2",
-    "image": "/images/profile-photos/user-image(2).png",
+    "image": "./images/profile-photos/user-image(2).png",
     "profile_text": "I'm a thoughtful and curious person with a passion for exploring and learning new things. I enjoy taking pictures and writing, and when I need to relax, you can often find me on my yoga mat or in the kitchen. I'm looking for a person who can take me on new adventures and share my love for art and culture."
   },
   {
@@ -244,7 +244,7 @@ const profiles = [
     "smoking_habits": "Smoker",
     "interests": ["Traveling", "Cooking", "Yoga", "Volunteering and charity work"],
     "children": "none",
-    "image": "/images/profile-photos/user-image(17).png",
+    "image": "./images/profile-photos/user-image(17).png",
     "profile_text": "I'm a helpful and active person who'd like to make a difference in the world. I love traveling and experiencing new cultures and enjoy helping others through volunteering and charity work. I'm looking for a person who has the same attitude and is ready to take the world by storm together with me."
   },
   {
@@ -263,7 +263,7 @@ const profiles = [
     "smoking_habits": "Non-smoker",
     "interests": ["Photography", "Traveling", "Yoga", "Cooking", "Music", "Technology"],
     "children": "1",
-    "image": "/images/profile-photos/user-image(11).png",
+    "image": "./images/profile-photos/user-image(11).png",
     "profile_text": "I'm a software engineer with a passion for photography, travel, and technology. I'm looking for a woman who shares my interests and can join me on exciting adventures."
   },
 
@@ -283,7 +283,7 @@ const profiles = [
     "smoking_habits": "Non-smoker",
     "interests": ["Teaching", "Traveling", "Yoga", "Cooking", "Music", "Hiking and outdoor activities"],
     "children": "2",
-    "image": "/images/profile-photos/user-image(15).png",
+    "image": "./images/profile-photos/user-image(15).png",
     "profile_text": "I'm a teacher who's passionate about education and enjoys helping young minds grow. On the weekends, I like to have fun and enjoy life to the fullest. I'm looking for a woman who shares my love for learning and adventure."
   },
   {
@@ -302,7 +302,7 @@ const profiles = [
     "smoking_habits": "Non-smoker",
     "interests": ["Photography", "Traveling", "Yoga", "Arts and crafts", "Animals", "Astrology"],
     "children": "none",
-    "image": "/images/profile-photos/user-image(6).png",
+    "image": "./images/profile-photos/user-image(6).png",
     "profile_text": "I'm an adventurous and creative person who loves to explore new cultures and create art. I'm also very interested in astrology and often spend my time reading about stars and planets. I'm looking for a person who can be my travel companion and share my passion for exploring and learning new things."
   },
   {
@@ -321,7 +321,7 @@ const profiles = [
     "smoking_habits": "Non-smoker",
     "interests": ["Photography", "Literature", "Traveling", "Cooking", "Yoga", "Arts and crafts"],
     "children": "2",
-    "image": "/images/profile-photos/user-image(16).png",
+    "image": "./images/profile-photos/user-image(16).png",
     "profile_text": "I'm a thoughtful and curious person with a passion for exploring and learning new things. I enjoy taking pictures and writing, and when I need to relax, you can often find me on my yoga mat or in the kitchen. I'm looking for a person who can take me on new adventures and share my love for art and culture."
   },
   {
@@ -340,7 +340,7 @@ const profiles = [
     "smoking_habits": "Social smoker",
     "interests": ["Photography", "Traveling", "Yoga", "Arts and crafts", "Animals", "Astrology"],
     "children": "none",
-    "image": "/images/profile-photos/user-image(18).png",
+    "image": "./images/profile-photos/user-image(18).png",
     "profile_text": "I'm an adventurous and creative person who loves to explore new cultures and create art. I'm also very interested in astrology and often spend my time reading about stars and planets. I'm looking for a person who can be my travel companion and share my passion for exploring and learning new things."
   },
   {
@@ -359,7 +359,7 @@ const profiles = [
     "smoking_habits": "Non-smoker",
     "interests": ["Photography", "Traveling", "Yoga", "Cooking", "Music", "Technology"],
     "children": "1",
-    "image": "/images/profile-photos/user-image(19).png",
+    "image": "./images/profile-photos/user-image(19).png",
     "profile_text": "I'm a software engineer with a passion for photography, travel, and technology. I'm looking for a man who shares my interests and can join me on exciting adventures."
   },
   {
@@ -378,7 +378,7 @@ const profiles = [
     "smoking_habits": "Smoker",
     "interests": ["Yoga", "Traveling", "Cooking"],
     "children": "3 or more",
-    "image": "/images/profile-photos/user-image(20).png",
+    "image": "./images/profile-photos/user-image(20).png",
     "profile_text": "I'm a curious and open-minded person who likes to explore new places and cultures. I also enjoy cooking and preparing healthy meals, and like to stay in shape by practicing yoga. I'm looking for a woman who can share my thirst for adventure and passion for health and well-being."
 }
 ];

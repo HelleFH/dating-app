@@ -6,7 +6,7 @@ function SignUp() {
     <div className='landing-page-content'>
 
       <div className='landing-page-header'>
-        <div className='home-logo'>  <img src="../images/logo.png" /></div>
+        <div className='home-logo'>  <img src="./images/logo.png" /></div>
         <div className='signup-form-header-container'>
           <h3> Fill out the form below to create your free account!
           </h3>

@@ -8,7 +8,7 @@ const Home = () => {
         <div className='landing-page-content'>
 
             <div className='landing-page-header'>
-                <div className='home-logo'>  <img src="../images/logo.png" /></div>
+                <div className='home-logo'>  <img src="./images/logo.png" /></div>
                 
             </div>
             <div>
@@ -24,16 +24,16 @@ const Home = () => {
 </button>
 </div>
             <div className='home-profile-photos'>
-                <div><img src="../images/profile-photos/user-image(1).png" /></div>
-                <div><img src="../images/profile-photos/user-image(5).png" /></div>
-                <div><img src="../images/profile-photos/user-image(10).png" /></div>
-                <div><img src="../images/profile-photos/user-image(17).png" /></div>
+                <div><img src="./images/profile-photos/user-image(1).png" /></div>
+                <div><img src="./images/profile-photos/user-image(5).png" /></div>
+                <div><img src="./images/profile-photos/user-image(10).png" /></div>
+                <div><img src="./images/profile-photos/user-image(17).png" /></div>
 
-                <div><img src="../images/profile-photos/user-image(18).png" /></div>
-                <div><img src="../images/profile-photos/user-image(11).png" /></div>
-                <div><img src="../images/profile-photos/user-image(9).png" /></div>
+                <div><img src="./images/profile-photos/user-image(18).png" /></div>
+                <div><img src="./images/profile-photos/user-image(11).png" /></div>
+                <div><img src="./images/profile-photos/user-image(9).png" /></div>
 
-                <div><img src="../images/profile-photos/user-image(19).png" /></div>
+                <div><img src="./images/profile-photos/user-image(19).png" /></div>
             </div>
         </div>
         </div>
