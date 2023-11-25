@@ -14,7 +14,7 @@ import './css/favorites.css'
 
 
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/home';
 import UserProfile from './pages/viewMyProfile';
 import CreateProfile from './pages/CreateProfile';

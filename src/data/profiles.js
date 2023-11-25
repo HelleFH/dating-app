@@ -53,7 +53,7 @@ const profiles = [
     "smoking_habits": "Non-smoker",
     "interests": ["Painting", "Traveling", "Yoga", "Cooking", "Hiking and outdoor activities"],
     "children": "none",
-    "image": "/images/profile-photos/user-image(4).png",
+    "image": "./images/profile-photos/user-image(4).png",
     "profile_text": "I'm an energetic and creative person who loves to be active and challenge myself. I like to cook healthy food and come up with new recipes, and enjoy staying fit and in shape by doing yoga and hiking. I'm looking for a man who can appreciate my positive attitude and strengthen me both physically and mentally."
   },
   {
