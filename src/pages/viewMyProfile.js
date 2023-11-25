@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { FaUser, FaPerson, FaBriefcase, FaBirthdayCake, FaUserPolice, FaPhone, FaMapMarker, FaEnvelope, FaChild, FaSmoking, FaGraduationCap, FaWineGlass, FaStar, FaListUl, FaBaby, FaCocktail } from 'react-icons/fa'; // Import Font Awesome icons
+import { FaUser, FaPerson, FaBriefcase, FaUserPolice, FaPhone, FaMapMarker, FaEnvelope, FaChild, FaSmoking, FaGraduationCap, FaWineGlass, FaStar, FaListUl, FaBaby, FaCocktail } from 'react-icons/fa'; // Import Font Awesome icons
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 function UserProfile() {
