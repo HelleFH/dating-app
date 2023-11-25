@@ -121,7 +121,7 @@ function Favorites() {
             </select>
           </div>
         </div>
-        <div >
+        <div className="favorite-profiles">
           {filteredProfiles.map((profile) => (
 
             <div key={profile.id} className="profile">
