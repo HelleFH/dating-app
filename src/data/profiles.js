@@ -15,7 +15,7 @@ const profiles = [
     "smoking_habits": "Non-smoker",
     "interests": ["Photography", "Traveling", "Yoga", "Cooking", "Music", "Technology"],
     "children": "1",
-    "image": "/images/profile-photos/user-image(13).png",
+    "image": "./images/profile-photos/user-image(13).png",
     "profile_text": "I'm a financial analyst with a passion for photography, travel, and technology. I'm looking for a woman who shares my interests and can join me on exciting adventures."
   },
   {
@@ -34,7 +34,7 @@ const profiles = [
     "smoking_habits": "Non-smoker",
     "interests": ["Painting", "Literature", "Yoga", "Animals", "Fashion and design", "Volunteering and charity work"],
     "children": "3 or more",
-    "image": "/images/profile-photos/user-image(3).png",
+    "image": "./images/profile-photos/user-image(3).png",
     "profile_text": "I'm a creative and sensitive person who enjoys expressing myself through art and writing. I also love animals and fashion and enjoy giving back to society and helping those in need. I'm looking for a person who's open and empathetic and can understand me and my creativity."
   },
   {
