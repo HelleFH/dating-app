@@ -91,10 +91,6 @@ ul {
   list-style: none;
 }
 
-nav ul {
-  align-content: center;
-}
-
 li:hover {
   transform: scale(1.01);
 }

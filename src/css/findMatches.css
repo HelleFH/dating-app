@@ -13,7 +13,7 @@
 
 .card-container {
   display: flex;
-  height: 600px;
+  min-height: 600px;
   position: relative;
   justify-content: center;
   overflow: hidden;

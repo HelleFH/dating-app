@@ -152,7 +152,7 @@ function FindMatches() {
                 
                 <button className="otherProfile-button" onClick={() => handleViewProfileClick(selectedProfile)}>
 
-                  <Link to={`/favoriteProfiles/${selectedProfile.id}`}>
+                  <Link to={`/individualProfiles/${selectedProfile.id}`}>
                     View Profile
                   </Link>
                 </button>

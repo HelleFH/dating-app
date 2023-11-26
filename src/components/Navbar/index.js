@@ -19,7 +19,7 @@ const Bar = styled.nav`
   font-size: 1em;
   background:transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  height: 7vh;
+  min-height: 40px;
   display: flex;
   background-color:rgb(252, 245, 199);
   align-items: center;
@@ -31,9 +31,8 @@ const Bar = styled.nav`
   @media (min-width: 768px) {
     display: flex;
     justify-content: space-between;
-    align-items:center;
     padding-bottom: 0;
-    height: 10vh;
+    height: 70px;
     top:0;
   }
 `;
@@ -48,7 +47,6 @@ const MainNav = styled.ul`
   top: 38px;
   width: 100vw;
   transition: transform 0.3s ease;
-  transform: translateY(${(props) => (props.display === "flex" ? "none" : "-100%")});
   border-radius: 0 0 5px 5px;
   margin:0;
   padding:0;
@@ -60,24 +58,26 @@ const MainNav = styled.ul`
     flex-direction: row;
     justify-content: flex-end;
     background-color: transparent;
+    top:0;
 
 flex-wrap:wrap;
-align-items:center;
 height:70px;
+align-items:center;
 
 width:100%;
-margin-bottom:auto;  }
+  }
 `;
 
 const NavLi = styled.li`
   text-align: center;
-  margin: 1.5em auto;
   position: relative;
+  margin: 0 auto;
 
   a {
     font-weight: 600;
   }
   @media screen and (max-width: 768px) {
+    margin: 1.5em auto !important;
 
     a {
       font-weight: 600;

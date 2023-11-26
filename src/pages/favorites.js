@@ -166,7 +166,7 @@ function Favorites() {
                 <div className="other-profile-buttons">
                 <button className="otherProfile-button" onClick={() => handleViewProfileClick(profile)}>
 
-<Link to={`/favoriteProfiles/${profile.id}`}>
+<Link to={`/individualProfiles/${profile.id}`}>
   View Profile
 </Link>
 </button>

@@ -20,7 +20,7 @@ import UserProfile from './pages/viewMyProfile';
 import CreateProfile from './pages/CreateProfile';
 import SignUp from './pages/signup';
 import Favorites from './pages/favorites';
-import FavoriteProfile from './pages/favoriteProfile';
+import IndividualProfile from './pages/individualProfile';
 import FindMatches from './pages/FindMatches';
 import Footer from './components/Footer';
 
@@ -33,7 +33,7 @@ function App() {
         <Route path='/findmatches' element={<FindMatches />} />
         <Route path='/CreateProfile' element={<CreateProfile />} />
         <Route path='/favorites' element={<Favorites />} />
-        <Route path="/favoriteProfiles/:id" element={<FavoriteProfile />} />
+        <Route path="/individualProfiles/:id" element={<IndividualProfile />} />
         <Route path='/sign-up' element={<SignUp />} />
         <Route path='/index' element={<Home />} />
         <Route path='/' element={<Home />} />
