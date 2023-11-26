@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/dating-app/static/css/main.8c296f52.css",
-    "main.js": "/dating-app/static/js/main.f069a34e.js",
+    "main.css": "/dating-app/static/css/main.d62dbbe8.css",
+    "main.js": "/dating-app/static/js/main.291dda1f.js",
     "static/media/couple-wedding.png": "/dating-app/static/media/couple-wedding.a7c4bf033cc99d051a08.png",
     "index.html": "/dating-app/index.html",
-    "main.8c296f52.css.map": "/dating-app/static/css/main.8c296f52.css.map",
-    "main.f069a34e.js.map": "/dating-app/static/js/main.f069a34e.js.map"
+    "main.d62dbbe8.css.map": "/dating-app/static/css/main.d62dbbe8.css.map",
+    "main.291dda1f.js.map": "/dating-app/static/js/main.291dda1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c296f52.css",
-    "static/js/main.f069a34e.js"
+    "static/css/main.d62dbbe8.css",
+    "static/js/main.291dda1f.js"
   ]
 }
