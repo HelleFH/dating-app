@@ -21,8 +21,8 @@ function FavoriteProfile() {
         <h2>
   {addPossessiveS(selectedProfile.name)} {' '} {' '}   Profile
 </h2>
-        <div key={selectedProfile.id} className="profile">
-        <div className="profile-personal-info">
+        <div key={selectedProfile.id} className="other-profile">
+        <div className="other-profile-personal-info">
           
         <img src={selectedProfile.image} alt={`${selectedProfile.name}'s profile`} />
           
@@ -34,10 +34,10 @@ function FavoriteProfile() {
             {selectedProfile.occupation} - {selectedProfile.location}
           </h4>
           <h4>Interests:</h4>
-          <div className="profile-interest-list-container">
+          <div className="other-profile-interest-list-container">
    
 
-          <ul className="profile-interest-list">
+          <ul className="other-profile-interest-list">
               {selectedProfile.interests.map((interest, index) => (
                 <li key={index}>{interest}</li>
               ))}

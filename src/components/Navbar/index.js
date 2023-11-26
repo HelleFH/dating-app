@@ -19,7 +19,7 @@ const Bar = styled.nav`
   font-size: 1em;
   background:transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  min-height: 40px;
+  height: 7vh;
   display: flex;
   background-color:rgb(252, 245, 199);
   align-items: center;
@@ -31,8 +31,9 @@ const Bar = styled.nav`
   @media (min-width: 768px) {
     display: flex;
     justify-content: space-between;
+    align-items:center;
     padding-bottom: 0;
-    height: 70px;
+    height: 10vh;
     top:0;
   }
 `;
@@ -65,8 +66,7 @@ align-items:center;
 height:70px;
 
 width:100%;
-margin:25px 30px 18px 0px;
-  }
+margin-bottom:auto;  }
 `;
 
 const NavLi = styled.li`

@@ -11,6 +11,7 @@ const Modal = (props) => {
           <p> &#x2715;</p >  
         </div>
         {props.children}
+        
    
       </div>
       

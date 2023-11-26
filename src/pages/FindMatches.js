@@ -118,8 +118,8 @@ function FindMatches() {
         <Modal closeModal={() => setIsModalOpen(false)}>
           
           <div className='modal-content'>
-            <div key={selectedProfile.id} className="profile">
-              <div className="profile-personal-info">
+            <div key={selectedProfile.id} className="other-profile">
+              <div className="other-profile-personal-info">
 
                 <img src={selectedProfile.image} alt={`${selectedProfile.name}'s selectedProfile`} />
 
@@ -141,23 +141,22 @@ function FindMatches() {
                   </div>
                 )}
               </div>
-              <div className='modal-buttons'>
-             
-             <button className="otherProfile-button" onClick={closeModal}>
-               Back
-             </button>
-             
-             <button className="otherProfile-button" onClick={() => handleViewProfileClick(selectedProfile)}>
-
-               <Link to={`/favoriteProfiles/${selectedProfile.id}`}>
-                 View Profile
-               </Link>
-             </button>
-             </div>
 
               </div>
 
-  
+              <div className='modal-buttons'>
+             
+                <button className="otherProfile-button" onClick={closeModal}>
+                  Back
+                </button>
+                
+                <button className="otherProfile-button" onClick={() => handleViewProfileClick(selectedProfile)}>
+
+                  <Link to={`/favoriteProfiles/${selectedProfile.id}`}>
+                    View Profile
+                  </Link>
+                </button>
+                </div>
               </div>
             </div>
         </Modal>
@@ -198,7 +197,7 @@ function FindMatches() {
                   <p>
                     {character.occupation}, {character.location}
                   </p>
-                  <div className="info-button">
+             <div className="info-button">
   <a href="#" onClick={(event) => { 
     event.preventDefault();
     openModal(character);

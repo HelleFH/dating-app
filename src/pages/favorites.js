@@ -124,8 +124,8 @@ function Favorites() {
         <div className="favorite-profiles">
           {filteredProfiles.map((profile) => (
 
-            <div key={profile.id} className="profile">
-              <div className="profile-personal-info">
+            <div key={profile.id} className="other-profile">
+              <div className="other-profile-personal-info">
 
                 <img src={profile.image} alt={`${profile.name}'s profile`} />
 
@@ -136,10 +136,10 @@ function Favorites() {
                 <h4>
                   {profile.occupation} - {profile.location}
                 </h4>
-                <div className="profile-interest-list-container">
+                <div className="other-profile-interest-list-container">
                   <h4>Interests:</h4>
 
-                  <ul className="profile-interest-list">
+                  <ul className="other-profile-interest-list">
                     {profile.interests.map((interest, index) => (
                       <li key={index}>{interest}</li>
                     ))}

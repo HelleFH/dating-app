@@ -1,4 +1,4 @@
-.profile {
+.other-profile {
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -9,18 +9,18 @@
   padding: 0.2em;
 }
 
-.profile-personal-info {
+.other-profile-personal-info {
   display: flex;
   flex-direction: column;
 }
 
-.profile-personal-info h4 {
+.other-profile-personal-info h4 {
   font-size: 0.8em;
   padding-bottom: 1em;
   padding-top: 1em;
 }
 
-.profile-interest-list {
+.other-profile-interest-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -28,7 +28,7 @@
   padding: 0;
 }
 
-.profile-interest-list li {
+.other-profile-interest-list li {
   background-color: white;
   font-size: 0.8em;
   font-weight: 600;
@@ -38,7 +38,7 @@
   width: fit-content;
 }
 
-.profile-interest-list-container {
+.other-profile-interest-list-container {
   grid-column: 2;
   grid-row: 3;
 }
@@ -50,7 +50,7 @@
   flex-wrap: wrap;
 }
 
-.additional-info div {
+.additional-info div:not(:last-child) {
   display: flex;
   flex-direction: row;
   gap: 0.3em;
@@ -66,7 +66,7 @@
   line-height: 1.7em;
 }
 
-.profile-personal-info div {
+.other-profile-personal-info div {
   display: flex;
   flex-direction: column;
 }
@@ -82,55 +82,58 @@
   margin-bottom: 2em;
 }
 
+.other-profile-buttons {
+  margin-left: auto;
+  padding-right: 0.5em;
+}
+
 @media (min-width: 767px) {
-  .profile-personal-info {
+  .modal-content .other-profile-personal-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto auto;
   }
 
-  .modal-content .profile {
+  .modal-content .other-profile {
     width: 50vw;
     max-width: 450px;
   }
 
-  .profile-personal-info img {
+  .modal-content .other-profile-personal-info img {
     grid-column: 1;
     grid-row: 1/span 4
   }
 
-  .profile-personal-info h4 {
+  .modal-content .other-profile-personal-info h4 {
     grid-column: 2;
     grid-row: 2
   }
 
-  .profile-personal-info h3 {
+  .modal-content .other-profile-personal-info h3 {
     grid-column: 2;
     grid-row: 1;
   }
 
-  .additional-info {
+  .modal-content .additional-info {
     grid-column: 2;
     grid-row: 3
   }
 
-  .other-profile-buttons {
+  .modal-content .other-profile-buttons {
     grid-column: 2;
     grid-row: 4;
   }
 
-  .profile {
+  .other-profile {
     max-width: 40vw;
     padding: 0.5em;
   }
 
   .favorite-profile-content {
     top: 12vh;
-
     align-items: center;
     width: 40vw;
     margin: 0 auto;
     margin-bottom: 10em;
-
   }
 }
