@@ -74,7 +74,7 @@ function UserProfile() {
       </div>
       </div>
 
-      <div class="myProfile-user-info">
+      <div className="myProfile-user-info">
         <h2>Additional information</h2>
         {profileData.description && (
           <p className='myProfile-profile-text'><span>Profile text:</span><span>{profileData.description}</span></p>
@@ -121,7 +121,7 @@ function UserProfile() {
        
          <h2>Interests:</h2>
 
-            <ul class="myProfile-interests">
+            <ul className="myProfile-interests">
               {profileData.selectedInterests.map((interest, index) => (
                 <li key={index}>{interest}</li>
               ))}

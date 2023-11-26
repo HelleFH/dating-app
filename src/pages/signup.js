@@ -13,7 +13,7 @@ function SignUp() {
         </div>
       </div>
 
-      <div class="signup-form-container">
+      <div className="signup-form-container">
        
 
         <SignUpForm />

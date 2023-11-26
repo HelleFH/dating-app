@@ -92,22 +92,40 @@ function FindMatches() {
     updateCurrentIndex(newIndex);
     await childRefs[newIndex].current.restoreCard();
   };
-  const [selectedProfile, setSelectedProfile] = useState(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const openModal = (profile) => {
-    setSelectedProfile(profile);
-    setIsModalOpen(true);
-  };
-  const handleViewProfileClick = (profile) => {
-    // Store the selected profile in localStorage
-    localStorage.setItem("selectedProfile", JSON.stringify(profile));
-  };
+    // Modal
 
-
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
+    const [selectedProfile, setSelectedProfile] = useState(null);
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [storedProfile, setStoredProfile] = useState(null);
+    
+    const openModal = (profile) => {
+      setSelectedProfile(profile);
+      setIsModalOpen(true);
+    };
+    
+    const handleViewProfileClick = (profile) => {
+      // Store the selected profile temporarily in state
+      setSelectedProfile(profile);
+      // Store the selected profile in localStorage
+      localStorage.setItem("selectedProfile", JSON.stringify(profile));
+    };
+    
+    const closeModal = () => {
+      setIsModalOpen(false);
+      // After closing the modal, navigate back to the stored profile if it exists
+      setSelectedProfile(storedProfile);
+    };
+    
+    useEffect(() => {
+      // Retrieve the selected profile from localStorage on initial load
+      const storedProfileString = localStorage.getItem("selectedProfile");
+      if (storedProfileString) {
+        const storedProfile = JSON.parse(storedProfileString);
+        setStoredProfile(storedProfile);
+        setSelectedProfile(storedProfile); // Set the selected profile from localStorage
+      }
+    }, []);
 
   return (
 
