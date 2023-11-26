@@ -141,22 +141,23 @@ function FindMatches() {
                   </div>
                 )}
               </div>
+              <div className='other-profile-buttons'>
+             
+             <button className="otherProfile-button" onClick={closeModal}>
+               Back
+             </button>
+             
+             <button className="otherProfile-button" onClick={() => handleViewProfileClick(selectedProfile)}>
+
+               <Link to={`/individualProfiles/${selectedProfile.id}`}>
+                 View Profile
+               </Link>
+             </button>
+             </div>
 
               </div>
 
-              <div className='modal-buttons'>
-             
-                <button className="otherProfile-button" onClick={closeModal}>
-                  Back
-                </button>
-                
-                <button className="otherProfile-button" onClick={() => handleViewProfileClick(selectedProfile)}>
-
-                  <Link to={`/individualProfiles/${selectedProfile.id}`}>
-                    View Profile
-                  </Link>
-                </button>
-                </div>
+        
               </div>
             </div>
         </Modal>

@@ -92,11 +92,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto auto;
+    gap:1em;
   }
 
   .modal-content .other-profile {
-    width: 50vw;
-    max-width: 450px;
+    width: auto;
+    max-width:60vw;
   }
 
   .modal-content .other-profile-personal-info img {
@@ -122,6 +123,8 @@
   .modal-content .other-profile-buttons {
     grid-column: 2;
     grid-row: 4;
+    display: flex;
+    flex-direction: row;
   }
 
   .other-profile {
